@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="FormatTextView">
+        <attr name="formatTextSize" format="dimension" />
+        <attr name="formatTextColor" format="reference|color" />
+        <attr name="formatTextStyle">
+            <flag name="normal" value="0" />
+            <flag name="bold" value="1" />
+            <flag name="italic" value="2" />
+        </attr>
+
+        <attr name="pressedFormatTextColor" format="reference|color" />
+        <attr name="pressedFormatTextBackgroundColor" format="reference|color" />
+    </declare-styleable>
+</resources>
